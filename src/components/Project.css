@@ -1,0 +1,254 @@
+.Project {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    margin-right: 25vw;
+}
+
+.projectImage {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 1px rgba(0, 58, 78, 0.69);
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 58, 78, 0.69);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 58, 78, 0.69);
+}
+
+.projectInformations {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    margin-bottom: 16vh;
+}
+
+.iconsField {
+    width: fit-content;
+    display: flex;
+    gap: 0.5vw;
+}
+
+.iconsField img {
+    width: 30px;
+    height: 30px;
+}
+
+.projectTitle {
+    font-size: 50px;
+    color: #02334C;
+    font-family: 'Patua One', cursive;
+}
+
+.projectSubtitle {
+    font-family: 'Patua One', cursive;
+    color: #02334C;
+    font-size: 18px;
+}
+
+.viewProjectsField {
+    display: flex;
+    gap: 1vw;
+    margin-top: 1vh;
+}
+
+.viewProjectsField a button {
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: none;
+    background-color: #ece3f6;
+    padding: 7px 50px 7px 50px;
+    border-radius: 5px;
+    color: #02334C;
+    box-shadow: 0px 0px 10px 1px rgba(0, 58, 78, 0.69);
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 58, 78, 0.69);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 58, 78, 0.69);
+}
+
+.viewProjectsField a button:hover {
+    background-color: #02334C;
+}
+
+.viewProjectsField a button p {
+    font-size: 20px;
+    font-family: 'Patua One', cursive;
+}
+
+.viewProjectsField a button img {
+    width: 20px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 1450px) {
+    .Project {
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 1150px) {
+    .projectImage {
+        width: 300px;
+        height: 300px;
+    }
+
+    .projectInformations {
+        margin-bottom: 5vh;
+    }
+}
+
+@media(max-width: 870px) {
+    .Project {
+        justify-content: center;
+    }
+
+    .projectTitle {
+        font-size: 40px;
+    }
+
+    .viewProjectsField a button {
+        padding: 7px 35px 7px 35px;
+    }
+}
+
+@media (max-width: 735px) {
+    .projectImage {
+        width: 250px;
+        height: 250px;
+    }
+
+    .projectTitle {
+        font-size: 35px;
+    }
+
+    .projectSubtitle {
+        font-size: 17px;
+    }
+
+    .viewProjectsField a button {
+        padding: 7px 30px 7px 30px;
+    }
+
+    .viewProjectsField a button p {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 650px) {
+    .projectImage {
+        width: 200px;
+        height: 200px;
+    }
+
+    .projectTitle {
+        font-size: 32px;
+    }
+
+    .projectSubtitle {
+        font-size: 16px;
+    }
+
+    .iconsField img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .viewProjectsField a button p {
+        font-size: 17px;
+    }
+
+    .viewProjectsField a button {
+        padding: 7px 30px 7px 30px;
+    }
+
+    .viewProjectsField a button img {
+        width: 17px;
+        height: 17px;
+    }
+}
+
+@media(max-width: 580px) {
+    .projectImage {
+        width: 150px;
+        height: 150px;
+    }
+
+    .projectTitle {
+        font-size: 27px;
+    }
+
+    .projectSubtitle {
+        font-size: 15px;
+    }
+
+    .viewProjectsField a button p {
+        font-size: 16px;
+    }
+
+    .viewProjectsField a button {
+        padding: 7px 27px 7px 27px;
+    }
+
+    .viewProjectsField a button img {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media(max-width: 490px) {
+    .viewProjectsField {
+        flex-direction: column;
+    }
+
+    .viewProjectsField a button {
+        width: 200px;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 440px) {
+    .projectTitle {
+        font-size: 23px;
+    }
+
+    .projectSubtitle {
+        font-size: 14px;
+    }
+
+    .iconsField img {
+        width: 21px;
+        height: 21px;
+    }
+}
+
+@media(max-width: 400px) {
+    .projectImage {
+        width: 120px;
+        height: 120px;
+    }
+
+    .projectTitle {
+        font-size: 20px;
+    }
+
+    .projectSubtitle {
+        font-size: 13px;
+    }
+
+    .viewProjectsField a button p {
+        font-size: 14px;
+    }
+
+    .viewProjectsField a button {
+        width: 170px;
+        justify-content: center;
+        align-items: center;
+    }
+}

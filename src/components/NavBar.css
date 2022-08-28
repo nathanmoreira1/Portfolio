@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500;600;700&display=swap');
+
+.NavBar {
+    display: flex;
+    width: 100%;
+    background-color: #00a6a1;
+    padding: 10px;
+    padding-right: 4vw;
+    gap: 20px;
+    justify-content: flex-end;
+    position: fixed;
+    height: 70px;
+    z-index: 999;
+    align-items: center;
+}
+
+.NavBar a {
+    width: fit-content;
+    height: fit-content;
+    font-size: 22px;
+    text-decoration: none;
+    color: #ece3f6;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+
+.NavBar a:hover {
+    border-bottom: 3px solid #ece3f6;
+}
+
+@media(max-width: 425px) {
+    .NavBar {
+        padding-right: 0;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 360px) {
+    .NavBar a {
+        font-size: 19px;
+    }
+}
+
+@media(max-width: 315px) {
+    .NavBar {
+        gap: 19px;
+    }
+    .NavBar a {
+        font-size: 18px;
+    }
+}

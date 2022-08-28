@@ -1,0 +1,57 @@
+.Contact {
+    min-height: 100vh;
+    height: fit-content;
+    background-color: #06324C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact h1 {
+    color: #00a6a1;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: 'Patua One', cursive;
+    margin-bottom: 5vh;
+}
+
+.contactSubtitle {
+    color: #ece3f6;
+    font-size: 18px;
+    text-align: center;
+}
+
+.contactField {
+    margin-top: 3vh;
+    display: flex;
+    gap: 20px;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #00a6a1;
+    padding: 4px;
+}
+
+.contactItem p {
+    font-size: 19px;
+}
+
+.contactItem img {
+    width: 25px;
+    height: 25px;
+}
+
+@media(max-width: 450px) {
+    .contactSubtitle {
+        max-width: 80vw;
+    }
+
+    .contactField {
+        flex-direction: column;
+    }
+}
