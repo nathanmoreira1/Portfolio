@@ -27,6 +27,13 @@ const Projects = () => {
             image: weatherImage,
             code: "https://github.com/nathanmoreira1/Clima-e-Previsao-do-Tempo",
             website: "https://zippy-sunflower-6c1c7c.netlify.app/"
+        },{
+            title: "Weather Forecast App",
+            subtitle: "Built using HTML, CSS, JS and React.",
+            icons: [htmlIcon, cssIcon, jsIcon, reactIcon],
+            image: weatherImage,
+            code: "https://github.com/nathanmoreira1/Clima-e-Previsao-do-Tempo",
+            website: "https://zippy-sunflower-6c1c7c.netlify.app/"
         }
     ]
 
