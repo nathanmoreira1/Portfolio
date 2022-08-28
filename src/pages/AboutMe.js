@@ -35,7 +35,8 @@ const AboutMe = () => {
             name: "CSS",
             description: "For sure, a page without a good stylization is not pleasant to end users of the application. I understand the crucial importance of this tool and also master it",
             image: css_image
-        },{
+        },
+        {
             name: "CSS",
             description: "For sure, a page without a good stylization is not pleasant to end users of the application. I understand the crucial importance of this tool and also master it",
             image: css_image
