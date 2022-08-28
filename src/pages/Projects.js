@@ -18,7 +18,7 @@ const Projects = () => {
             icons: [htmlIcon, cssIcon, jsIcon, reactIcon],
             image: mapsImage,
             code: "https://github.com/nathanmoreira1/Clone-do-Google-Maps",
-            website: "https://gleeful-croissant-bada56.netlify.app/"
+            website: "https://preeminent-douhua-d4e9aa.netlify.app/"
         },
         {
             title: "Weather Forecast App",
