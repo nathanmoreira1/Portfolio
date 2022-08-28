@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.a88c73bd.css",
+    "main.js": "/Portfolio/static/js/main.ffc83052.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/mapsImage.jpg": "/Portfolio/static/media/mapsImage.354e2e9386c3f7f73b5f.jpg",
+    "static/media/book.gif": "/Portfolio/static/media/book.8befd4574b84247ed7ef.gif",
+    "static/media/react_image.png": "/Portfolio/static/media/react_image.86c8d9eba03e29814d2a.png",
+    "static/media/reactIcon.png": "/Portfolio/static/media/reactIcon.07d9e407d4e491c548d5.png",
+    "static/media/weatherImage.jpg": "/Portfolio/static/media/weatherImage.65220c01890b51d67acc.jpg",
+    "static/media/whatsappHover.png": "/Portfolio/static/media/whatsappHover.81d1432882eb225d5e8c.png",
+    "static/media/whatsapp.png": "/Portfolio/static/media/whatsapp.63ca9ec484e8650be2e0.png",
+    "static/media/jsIcon.png": "/Portfolio/static/media/jsIcon.38323140666580081f57.png",
+    "static/media/telegramHover.png": "/Portfolio/static/media/telegramHover.cc5825152266496e6033.png",
+    "static/media/telegram.png": "/Portfolio/static/media/telegram.5fdfb49f7e53661a1e54.png",
+    "static/media/firebase_image.png": "/Portfolio/static/media/firebase_image.7d80683bfe5b544d78eb.png",
+    "static/media/html_image.png": "/Portfolio/static/media/html_image.6e930594286d8afe4c79.png",
+    "static/media/linkedin.png": "/Portfolio/static/media/linkedin.17c0dcb5d68087258b70.png",
+    "static/media/javascript_image.png": "/Portfolio/static/media/javascript_image.78206ba65e01c7d57080.png",
+    "static/media/down.png": "/Portfolio/static/media/down.566aaa833cf3b4dee24d.png",
+    "static/media/linkedinHover.png": "/Portfolio/static/media/linkedinHover.774295cc4eabe264578b.png",
+    "static/media/cssIcon.png": "/Portfolio/static/media/cssIcon.463e319bad8e0edf1ef7.png",
+    "static/media/css_image.png": "/Portfolio/static/media/css_image.463e319bad8e0edf1ef7.png",
+    "static/media/htmlIcon.png": "/Portfolio/static/media/htmlIcon.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/redirectionWhite.png": "/Portfolio/static/media/redirectionWhite.73c29aa63cd1c0574e87.png",
+    "index.html": "/Portfolio/index.html",
+    "main.a88c73bd.css.map": "/Portfolio/static/css/main.a88c73bd.css.map",
+    "main.ffc83052.js.map": "/Portfolio/static/js/main.ffc83052.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a88c73bd.css",
+    "static/js/main.ffc83052.js"
+  ]
+}
