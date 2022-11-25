@@ -10,11 +10,16 @@ import react_image from "../images/react_image.png"
 import firebase_image from "../images/firebase_image.png"
 
 const AboutMe = () => {
-    const skills = [
+        const skills = [
         {
-            name: "Firebase",
-            description: "I've worked on projects performing authentication and CRUD using this robust tool that performs several roles of a backend.",
-            image: firebase_image
+            name: "Javascript",
+            description: "I've been studying this programming language since I started programming. I use it in virtually all my projects.",
+            image: javascript_image
+        },
+        {
+            name: "React Native",
+            description: "I have experience in building apps with api consumption of various types, in addition to integration with services of the most varied.",
+            image: react_native_image
         },
         {
             name: "React",
@@ -22,9 +27,19 @@ const AboutMe = () => {
             image: react_image
         },
         {
-            name: "Javascript",
-            description: "I've been studying this programming language since I started programming. I use it in virtually all my projects.",
-            image: javascript_image
+            name: "PHP",
+            description: "I know how to build dynamic websites and apis for features like login or crud systems.",
+            image: php_image
+        },
+        {
+            name: "MySQL",
+            description: "I have experience in how to use the SQL language to create, operate and manage MySQL databases",
+            image: mysql_image
+        },
+        {
+            name: "Firebase",
+            description: "I've worked on projects performing authentication and CRUD using this robust tool that performs several roles of a backend.",
+            image: firebase_image
         },
         {
             name: "HTML",
