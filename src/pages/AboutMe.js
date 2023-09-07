@@ -58,7 +58,7 @@ const AboutMe = () => {
         },
         {
             name: "JQuery",
-            description: "Worked on authentication and CRUD operations using Firebase for various backend roles.",
+            description: "I worked using and certainly facilitates a lot the writing of javascript code, making the development easier.",
             image: jquery_image
         }
     ]
