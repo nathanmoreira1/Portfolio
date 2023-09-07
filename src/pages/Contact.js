@@ -19,6 +19,25 @@ const Contact = () => {
     const linkedinIconRef = useRef();
     const linkedinTextRef = useRef();
 
+    const handleMouseEnter = (btnRef, textRef, new_btn) => {
+        const promise1 = new Promise((resolve) => {
+            btnRef.current.src = new_btn;
+          resolve();
+        });
+    
+        const promise2 = new Promise((resolve) => {
+            textRef.current.style.color = "#ece3f6";
+          resolve();
+        });
+    
+        Promise.all([promise1, promise2]);
+    };
+    
+    const handleMouseLeave = (btnRef, textRef, old_btn) => {
+        btnRef.current.src = old_btn;
+        textRef.current.style.color = "#00a6a1";
+    };
+
     return (
         <div className="Contact" id="Contact" >
             <h1>Contact Me</h1>
@@ -30,14 +49,8 @@ const Contact = () => {
                 >
                     <div
                         className="contactItem"
-                        onMouseEnter={() => {
-                            telegramIconRef.current.src = telegramHover;
-                            telegramTextRef.current.style.color = "#ece3f6";
-                        }}
-                        onMouseLeave={() => {
-                            telegramIconRef.current.src = telegramIcon;
-                            telegramTextRef.current.style.color = "#00a6a1";
-                        }}
+                        onMouseEnter={() => handleMouseEnter(telegramIconRef, telegramTextRef, telegramHover)}
+                        onMouseLeave={() => handleMouseLeave(telegramIconRef, telegramTextRef, telegramIcon)}
                     >
                         <img ref={telegramIconRef} src={telegramIcon} alt="telegram" />
                         <p ref={telegramTextRef}>Telegram</p>
@@ -49,14 +62,8 @@ const Contact = () => {
                 >
                     <div
                         className="contactItem"
-                        onMouseEnter={() => {
-                            whatsappIconRef.current.src = whatsappHover;
-                            whatsappTextRef.current.style.color = "#ece3f6";
-                        }}
-                        onMouseLeave={() => {
-                            whatsappIconRef.current.src = whatsappIcon;
-                            whatsappTextRef.current.style.color = "#00a6a1";
-                        }}
+                        onMouseEnter={() => handleMouseEnter(whatsappIconRef, whatsappTextRef, whatsappHover)}
+                        onMouseLeave={() => handleMouseLeave(whatsappIconRef, whatsappTextRef, whatsappIcon)}
                     >
                         <img ref={whatsappIconRef} src={whatsappIcon} alt="whatsapp" />
                         <p ref={whatsappTextRef}>Whatsapp</p>
@@ -68,14 +75,8 @@ const Contact = () => {
                 >
                     <div
                         className="contactItem"
-                        onMouseEnter={() => {
-                            linkedinIconRef.current.src = linkedinHover;
-                            linkedinTextRef.current.style.color = "#ece3f6";
-                        }}
-                        onMouseLeave={() => {
-                            linkedinIconRef.current.src = linkedinIcon;
-                            linkedinTextRef.current.style.color = "#00a6a1";
-                        }}
+                        onMouseEnter={() => handleMouseEnter(linkedinIconRef, linkedinTextRef, linkedinHover)}
+                        onMouseLeave={() => handleMouseLeave(linkedinIconRef, linkedinTextRef, linkedinIcon)}
                     >
                         <img ref={linkedinIconRef} src={linkedinIcon} alt="linkedin" />
                         <p ref={linkedinTextRef}>Linkedin</p>

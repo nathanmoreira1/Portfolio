@@ -12,6 +12,25 @@ export const Project = ({ title, subtitle, icons, image, code, website }) => {
     const secondButtonRedirectIconRef = useRef();
     const secondButtonTextRef = useRef();
 
+    const handleMouseEnter = (btnRef, textRef) => {
+        const promise1 = new Promise((resolve) => {
+            btnRef.current.src = redirectWhiteIcon;
+          resolve();
+        });
+    
+        const promise2 = new Promise((resolve) => {
+            textRef.current.style.color = "#ece3f6";
+          resolve();
+        });
+    
+        Promise.all([promise1, promise2]);
+    };
+    
+    const handleMouseLeave = (btnRef, textRef) => {
+        btnRef.current.src = redirectIcon;
+        textRef.current.style.color = "#02334C";
+    };
+
     return (
         <div className="Project">
             <img src={image} alt="projectImage" className="projectImage" />
@@ -26,14 +45,8 @@ export const Project = ({ title, subtitle, icons, image, code, website }) => {
                 <div className="viewProjectsField">
                     <a href={code} target="_blank" >
                         <button
-                            onMouseEnter={() => {
-                                firstButtonRedirectIconRef.current.src = redirectWhiteIcon;
-                                firstButtonTextRef.current.style.color = "#ece3f6";
-                            }}
-                            onMouseLeave={() => {
-                                firstButtonRedirectIconRef.current.src = redirectIcon;
-                                firstButtonTextRef.current.style.color = "#02334C";
-                            }}
+                            onMouseEnter={() => handleMouseEnter(firstButtonRedirectIconRef, firstButtonTextRef)}
+                            onMouseLeave={() => handleMouseLeave(firstButtonRedirectIconRef, firstButtonTextRef)}
                         >
                             <p ref={firstButtonTextRef}>View Code</p>
                             <img ref={firstButtonRedirectIconRef} src={redirectIcon} />
@@ -41,14 +54,8 @@ export const Project = ({ title, subtitle, icons, image, code, website }) => {
                     </a>
                     <a href={website} target="_blank" >
                         <button
-                            onMouseEnter={() => {
-                                secondButtonRedirectIconRef.current.src = redirectWhiteIcon;
-                                secondButtonTextRef.current.style.color = "#ece3f6";
-                            }}
-                            onMouseLeave={() => {
-                                secondButtonRedirectIconRef.current.src = redirectIcon;
-                                secondButtonTextRef.current.style.color = "#02334C";
-                            }}
+                            onMouseEnter={() => handleMouseEnter(secondButtonRedirectIconRef, secondButtonTextRef)}
+                            onMouseLeave={() => handleMouseLeave(secondButtonRedirectIconRef, secondButtonTextRef)}
                         >
                             <p ref={secondButtonTextRef}>Website</p>
                             <img ref={secondButtonRedirectIconRef} src={redirectIcon} />
