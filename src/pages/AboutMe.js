@@ -4,52 +4,62 @@ import { SkillCard } from "../components/SkillCard"
 //images
 import bookIcon from "../images/book.gif"
 import html_image from "../images/html_image.png"
-import css_image from "../images/css_image.png"
+import rails_image from "../images/rails.png"
 import javascript_image from "../images/javascript_image.png"
 import react_image from "../images/react_image.png"
 import firebase_image from "../images/firebase_image.png"
+import typescript_image from "../images/typescript.png"
+import postgres_image from "../images/postgres.png"
+import sql_image from "../images/sql.png"
+import jquery_image from "../images/jquery.png"
+
 
 const AboutMe = () => {
-        const skills = [
+    const skills = [
         {
             name: "Javascript",
-            description: "I've been studying this programming language since I started programming. I use it in virtually all my projects.",
+            description: "2 years of experience, versatile use for scripting, automation, and web development.",
             image: javascript_image
         },
         {
-            name: "React Native",
-            description: "I have experience in building apps with api consumption of various types, in addition to integration with services of the most varied.",
-            image: react_native_image
+            name: "Typescript",
+            description: "Used for reliability and robustness in projects.",
+            image: typescript_image
         },
         {
-            name: "React",
-            description: "Javascript framework for building componentized and modern pages. My main stack at the moment.",
+            name: "React Native",
+            description:  "Developed a customer support app with features like ticket creation, profile editing, and bank statement viewing.",
             image: react_image
         },
         {
-            name: "PHP",
-            description: "I know how to build dynamic websites and apis for features like login or crud systems.",
-            image: php_image
+            name: "React.js",
+            description: "Web application development experience, involved in transitioning a project from HTML + CSS + JavaScript to React.",
+            image: react_image
+        },
+        {
+            name: "Ruby on Rails",
+            description: "Created lead management system for real estate agents, inventory control system for construction company, and more.",
+            image: rails_image
         },
         {
             name: "MySQL",
-            description: "I have experience in how to use the SQL language to create, operate and manage MySQL databases",
-            image: mysql_image
+            description: "Proficient in SQL for creating, operating, and managing MySQL databases.",
+            image: sql_image
+        },
+        {
+            name: "PostgreSQL",
+            description: "Proficient in SQL for creating, operating, and managing PostgreSQL databases.",
+            image: postgres_image
         },
         {
             name: "Firebase",
-            description: "I've worked on projects performing authentication and CRUD using this robust tool that performs several roles of a backend.",
+            description: "Worked on authentication and CRUD operations using Firebase for various backend roles.",
             image: firebase_image
         },
         {
-            name: "HTML",
-            description: "I have experience in building the skeleton of layouts of the most varied using this markup language.",
-            image: html_image
-        },
-        {
-            name: "CSS",
-            description: "For sure, a page without a good stylization is not pleasant to end users of the application. I understand the crucial importance of this tool and also master it",
-            image: css_image
+            name: "JQuery",
+            description: "Worked on authentication and CRUD operations using Firebase for various backend roles.",
+            image: jquery_image
         }
     ]
 
@@ -57,9 +67,8 @@ const AboutMe = () => {
         <div className="AboutMe" id="About" >
             <h1>About Me</h1>
             <img src={bookIcon} />
-            <p>Hey! I am a front-end programmer (aspiring fullstack in future), who loves to read and learn new things.
-                Here, I'd like to show you a little bit about what I've done and learned so far.
-            </p>
+            <p>Hey! I'm a full-stack programmer who loves reading and learning new things. Here, I'd like to share a bit about what I've completed so far.</p>
+
             <h1 className="skills">My Skills</h1>
             <div className="skillsField">
                 {skills.map((skill, i) => (
