@@ -32,7 +32,7 @@ const Projects = () => {
 
     return (
         <div className="Projects" id="Projects">
-            <h1 className="projectsTitle">Projects</h1>
+            <h1 className="projectsTitle">Open Source Projects</h1>
             <div className="projectsField">
                 {projects.map((project, i) => (
                     <Project
