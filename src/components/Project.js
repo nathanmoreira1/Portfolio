@@ -48,7 +48,7 @@ export const Project = ({ title, subtitle, icons, image, code, website }) => {
                             onMouseEnter={() => handleMouseEnter(firstButtonRedirectIconRef, firstButtonTextRef)}
                             onMouseLeave={() => handleMouseLeave(firstButtonRedirectIconRef, firstButtonTextRef)}
                         >
-                            <p ref={firstButtonTextRef}>View Code</p>
+                            <p ref={firstButtonTextRef}>Código</p>
                             <img ref={firstButtonRedirectIconRef} src={redirectIcon} />
                         </button>
                     </a>
@@ -57,7 +57,7 @@ export const Project = ({ title, subtitle, icons, image, code, website }) => {
                             onMouseEnter={() => handleMouseEnter(secondButtonRedirectIconRef, secondButtonTextRef)}
                             onMouseLeave={() => handleMouseLeave(secondButtonRedirectIconRef, secondButtonTextRef)}
                         >
-                            <p ref={secondButtonTextRef}>Website</p>
+                            <p ref={secondButtonTextRef}>Site</p>
                             <img ref={secondButtonRedirectIconRef} src={redirectIcon} />
                         </button>
                     </a>
