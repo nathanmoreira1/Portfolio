@@ -68,7 +68,6 @@ const AboutMe = () => {
             <h1>Sobre mim</h1>
             <img src={bookIcon} />
             <p>Sou um <span style={{backgroundColor: "red", padding: "5px", fontWeight: 700}}>Desenvolvedor de Software</span> que ama <span style={{backgroundColor: "green", padding: "5px", fontWeight: 700}}>aprender novas coisas</span> e me <span style={{backgroundColor: "green", padding: "5px", fontWeight: 700}}>manter em constante evolução</span>. Sou proativo e, além de valorizar a entrega das minhas próprias demandas dentro do prazo, é claro, também gosto de <span style={{backgroundColor: "green", padding: "5px", fontWeight: 700}}>ajudar / encaminhar os outros</span> a encontrar suas soluções para os desafios dos mais diversos.</p>
-
             <h1 className="skills">Minhas Habilidades</h1>
             <div className="skillsField">
                 {skills.map((skill, i) => (
