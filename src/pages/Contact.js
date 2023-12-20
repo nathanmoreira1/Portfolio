@@ -40,8 +40,8 @@ const Contact = () => {
 
     return (
         <div className="Contact" id="Contact" >
-            <h1>Contact Me</h1>
-            <p className="contactSubtitle">For what you need, my contact networks are below:</p>
+            <h1>Entre em contato</h1>
+            <p className="contactSubtitle">Para o que precisar, minhas redes sociais estão abaixo:</p>
             <div className="contactField">
                 <a
                     href="https://t.me/nathanmoreira1"

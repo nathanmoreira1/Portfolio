@@ -13,17 +13,17 @@ const Projects = () => {
 
     const projects = [
         {
-            title: "Google Maps Clone",
-            subtitle: "Built using HTML, CSS, JS and React.",
-            icons: [htmlIcon, cssIcon, jsIcon, reactIcon],
+            title: "Clone do Google Maps",
+            subtitle: "Feito com React",
+            icons: [reactIcon],
             image: mapsImage,
             code: "https://github.com/nathanmoreira1/Clone-do-Google-Maps",
             website: "https://preeminent-douhua-d4e9aa.netlify.app/"
         },
         {
-            title: "Weather Forecast App",
-            subtitle: "Built using HTML, CSS, JS and React.",
-            icons: [htmlIcon, cssIcon, jsIcon, reactIcon],
+            title: "Previsão do Tempo",
+            subtitle: "Feito com React",
+            icons: [reactIcon],
             image: weatherImage,
             code: "https://github.com/nathanmoreira1/Clima-e-Previsao-do-Tempo",
             website: "https://zippy-sunflower-6c1c7c.netlify.app/"
@@ -32,7 +32,7 @@ const Projects = () => {
 
     return (
         <div className="Projects" id="Projects">
-            <h1 className="projectsTitle">Open Source Projects</h1>
+            <h1 className="projectsTitle">Alguns Projetos</h1>
             <div className="projectsField">
                 {projects.map((project, i) => (
                     <Project

@@ -18,58 +18,58 @@ const AboutMe = () => {
     const skills = [
         {
             name: "Javascript",
-            description: "2 years of experience, versatile use for scripting, automation, and web development.",
+            description: "Já integrei inúmeras bibliotecas com projetos aos quais trabalho, além de experiência na criação de interações com o usuário e consumo / tratamento de retornos de APIs.",
             image: javascript_image
         },
         {
             name: "Typescript",
-            description: "Used for reliability and robustness in projects.",
+            description: "Já utilizei Typescript num projeto mobile com React Native. Efetuei e corrigi tipagens das mais diversas e sei como lidar com isso.",
             image: typescript_image
         },
         {
             name: "React Native",
-            description:  "Developed a customer support app with features like ticket creation, profile editing, and bank statement viewing.",
+            description:  "Ulizei RN para a criação de um aplicativo mobile voltado para a utilização do usuário final de uma imobiliária.",
             image: react_image
         },
         {
             name: "React.js",
-            description: "Web application development experience, involved in transitioning a project from HTML + CSS + JavaScript to React.",
+            description: "Já criei client-side de diversos projetos com React.js, indo desde projetos simples como landing pages ao frontend de aplicações mais robustas.",
             image: react_image
         },
         {
             name: "Ruby on Rails",
-            description: "Created lead management system for real estate agents, inventory control system for construction company, and more.",
+            description: "Possuo experiência na manutenção e na criação de features para projetos fullstack e em APIs aos quais utilizam Rails.",
             image: rails_image
         },
         {
             name: "MySQL",
-            description: "Proficient in SQL for creating, operating, and managing MySQL databases.",
+            description: "Linguagem de banco de dados. Sei como interpretar e escrever algumas queries, mesmo que na maioria do tempo, escrevê-las na mão não seja algo tão comum.",
             image: sql_image
         },
         {
             name: "PostgreSQL",
-            description: "Proficient in SQL for creating, operating, and managing PostgreSQL databases.",
+            description: "Linguagem de banco de dados. Sei como interpretar e escrever algumas queries, mesmo que na maioria do tempo, escrevê-las na mão não seja algo tão comum.",
             image: postgres_image
         },
         {
             name: "Firebase",
-            description: "Worked on authentication and CRUD operations using Firebase for various backend roles.",
+            description: "Já trabalhei num projeto que utilizava Firebase para operações envolvendo CRUDs dos mais variados, desde autenticação à outras operações mais complexas.",
             image: firebase_image
         },
         {
             name: "JQuery",
-            description: "I worked using and certainly facilitates a lot the writing of javascript code, making the development easier.",
+            description: "Certamente Jquery facilita muito o desenvolvimento frontend com Javascript puro. Já utilizei bastante para a manutenção de sistemas legados, onde normalmente ele é utilizado mais.",
             image: jquery_image
         }
     ]
 
     return (
         <div className="AboutMe" id="About" >
-            <h1>About Me</h1>
+            <h1>Sobre mim</h1>
             <img src={bookIcon} />
-            <p>Hey! I'm a full-stack programmer who loves reading and learning new things. Here, I'd like to share a bit about what I've completed so far.</p>
+            <p>Sou um <span style={{backgroundColor: "red", padding: "5px", fontWeight: 700}}>Desenvolvedor de Software</span> que ama <span style={{backgroundColor: "green", padding: "5px", fontWeight: 700}}>aprender novas coisas</span> e me <span style={{backgroundColor: "green", padding: "5px", fontWeight: 700}}>manter em constante evolução</span>. Sou proativo e, além de valorizar a entrega das minhas próprias demandas dentro do prazo, é claro, também gosto de <span style={{backgroundColor: "green", padding: "5px", fontWeight: 700}}>ajudar / encaminhar os outros</span> a encontrar suas soluções para os desafios dos mais diversos.</p>
 
-            <h1 className="skills">My Skills</h1>
+            <h1 className="skills">Minhas Habilidades</h1>
             <div className="skillsField">
                 {skills.map((skill, i) => (
                     <SkillCard key={i} name={skill.name} description={skill.description} image={skill.image} />

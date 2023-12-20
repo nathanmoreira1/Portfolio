@@ -14,7 +14,7 @@
     color: #00a6a1;
     font-size: 45px;
     font-weight: 700;
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .AboutMe h1:first-child {
@@ -25,7 +25,7 @@
     color: #ece3f6;
     font-size: 20px;
     line-height: 32px;
-    max-width: 40vw;
+    max-width: 70vw;
     text-align: center;
 }
 
