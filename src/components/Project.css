@@ -7,8 +7,8 @@
 }
 
 .projectImage {
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
     box-shadow: 0px 0px 10px 1px rgba(0, 58, 78, 0.69);
     -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 58, 78, 0.69);
