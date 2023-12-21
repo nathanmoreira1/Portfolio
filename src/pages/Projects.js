@@ -63,12 +63,12 @@ const Projects = () => {
                         <Typography style={{color: "#00a6a1", textAlign: "start", fontSize: "17px"}}>
                             Competências:
                         </Typography>
-                        <Stack direction="row" spacing={1} style={{marginTop: "10px", flexWrap: "wrap"}}>
-                            <Chip style={{color: "#00a6a1"}} label="Javascript" />
-                            <Chip style={{color: "#00a6a1"}} label="Typescript" />
-                            <Chip style={{color: "#00a6a1"}} label="Ruby on Rails"/>
-                            <Chip style={{color: "#00a6a1"}} label="JQuery"/>
-                            <Chip style={{color: "#00a6a1"}} label="PostgreSQL"/>
+                        <Stack direction="row" spacing={1} style={{marginTop: "10px", flexWrap: "wrap", marginBottom: "10px"}}>
+                            <Chip style={{color: "#00a6a1", marginBottom: "10px"}} label="Javascript" />
+                            <Chip style={{color: "#00a6a1", marginBottom: "10px"}} label="Typescript" />
+                            <Chip style={{color: "#00a6a1", marginBottom: "10px"}} label="Ruby on Rails"/>
+                            <Chip style={{color: "#00a6a1", marginBottom: "10px"}} label="JQuery"/>
+                            <Chip style={{color: "#00a6a1", marginBottom: "10px"}} label="PostgreSQL"/>
                         </Stack>
                     </AccordionDetails>
                 </Accordion>
