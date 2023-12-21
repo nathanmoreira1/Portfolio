@@ -4,14 +4,13 @@
     display: flex;
     width: 100%;
     background-color: #00a6a1;
-    padding: 10px;
-    padding-right: 4vw;
     gap: 20px;
     justify-content: flex-end;
-    position: fixed;
     height: 70px;
-    z-index: 999;
     align-items: center;
+    padding-right: 30px;
+    position: fixed;
+    z-index: 999;
 }
 
 .NavBar a {
@@ -30,15 +29,15 @@
     border-bottom: 3px solid #ece3f6;
 }
 
-@media(max-width: 425px) {
+@media(max-width: 600px) {
     .NavBar {
-        padding-right: 0;
+        padding-right: 0px;
         align-items: center;
         justify-content: center;
     }
 }
 
-@media(max-width: 360px) {
+@media(max-width: 5000px) {
     .NavBar a {
         font-size: 19px;
     }

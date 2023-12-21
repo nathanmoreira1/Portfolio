@@ -36,6 +36,7 @@
 
 .skills {
     margin-top: 10vh;
+    text-align: center;
 }
 
 .skillsField {
@@ -56,7 +57,7 @@
 
 @media(max-width: 890px) {
     .AboutMe p {
-        max-width: 75vw;
+        max-width: 85vw;
     }
 }
 
