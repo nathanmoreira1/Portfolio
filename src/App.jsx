@@ -32,7 +32,7 @@ function App() {
             <section className='my-informations-main'>
               <h1>Hi, I'm Nathan.</h1>
               <p>Software Developer</p>
-              <Menu setActualRoute={setActualRoute} />
+              <Menu actualRoute={actualRoute} setActualRoute={setActualRoute} />
             </section>
           </div>
           <section className='selected-content-main'>

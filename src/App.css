@@ -2,10 +2,12 @@
 
 * {
   font-family: 'Tinos' !important;
+  color: #fff !important;
 }
 
 body {
   margin: 0 !important;
+  background-image: url("./assets/developer.jpg");
 }
 
 .app {
@@ -13,13 +15,18 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  margin-top: 7%;
+  margin-top: 4%;
 }
 
 .container {
   width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 14px );
 }
 
 .side-bar {
@@ -51,6 +58,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-top: 40px;
+  margin-left: 10px;
 }
 
 .main-menu .menu-item {
@@ -68,4 +76,11 @@ body {
 
 .about-me p {
   font-size: 18px;
+}
+
+.selected-indicator {
+  width: 30px;
+  height: 1px;
+  background-color: #fff;
+  margin-right: 10px;
 }

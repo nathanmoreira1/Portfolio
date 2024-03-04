@@ -1,6 +1,7 @@
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import { CardActionArea } from '@mui/material';
+import Typography from '@mui/material/Typography';
 
 import { technologies } from "../data/technologies.json";
 
@@ -9,12 +10,13 @@ function Technologies() {
         <div className="technologies">
             {technologies.map((technology) => (
                 <>
-                    <Card key={technology.id} style={{height: "50px", marginBottom: "5px"}}>
+                    <Card key={technology.id} style={{height: "50px", marginBottom: "5px", backgroundColor: "#777"}}>
                         <CardActionArea>
                             <CardContent>
-                                <p>
-                                    {technology.name} - {technology.experience_count} anos
-                                </p>
+                            <Typography gutterBottom variant="body1" component="div">
+                                {technology.name} - {technology.experience_count} anos
+                            </Typography>
+                                
                             </CardContent>
                         </CardActionArea>
                     </Card>
