@@ -1,0 +1,12 @@
+{
+    "experiences": [
+        {
+            "id": 1,
+            "company": "Grupo Plano",
+            "position": "Fullstack Developer",
+            "period": "November 2022 - Currently",
+            "description": "<p>This is a company in the civil construction and real estate sector.</p><p>In it, I was responsible for creating several new features, such as a comprehensive inventory management system with input and output controls, another for managing incoming leads, as well as improvements to the legacy code, bug resolution, and minor features.</p><p>My responsibilities also extended to the most critical areas of the business, where I made improvements to the company's budget system, covering analysis, calculations, extraction of relevant data, and generation of reports, all automatically for the financial team.</p><p>I also highlight the complete revitalization of the site's front-end, migrating to React.js and making it responsive.\n\nI also had the opportunity to participate in the development of a mobile application in React Native, aimed at direct customer experience.</p>",
+            "techs": ["Ruby on Rails", "React.js", "React Native", "JQuery"]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  font-family: 'Inter';
+}
+
+body {
+  margin: 0 !important;
+}
+
+.app {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 7%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.my-informations-main {
+  width: 45%
+}
+
+.selected-content-main {
+  flex: 1;
+  overflow: auto;
+}
+
+.my-informations-main h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+.my-informations-main p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.main-menu .menu-item {
+  opacity: .6;
+}
+
+.main-menu .active {
+  opacity: 1;
+}
+
+.main-menu button {
+  justify-content: flex-start;
+  color: black;
+}
+
+.about-me p {
+  font-size: 16px;
+}

@@ -1,0 +1,39 @@
+{
+    "technologies": [
+        {
+            "id": 1,
+            "name": "Javascript",
+            "experience_count": 2
+        },
+        {
+            "id": 2,
+            "name": "Typescript",
+            "experience_count": 2
+        },
+        {
+            "id": 3,
+            "name": "Ruby on Rails",
+            "experience_count": 2
+        },
+        {
+            "id": 4,
+            "name": "JQuery",
+            "experience_count": 2
+        },
+        {
+            "id": 5,
+            "name": "Node.js",
+            "experience_count": 1
+        },
+        {
+            "id": 6,
+            "name": "React.js",
+            "experience_count": 3
+        },
+        {
+            "id": 7,
+            "name": "React Native",
+            "experience_count": 2
+        }
+    ]
+}
