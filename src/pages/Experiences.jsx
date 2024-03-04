@@ -20,7 +20,7 @@ function Experiences() {
                                 {experience.company} · {experience.period}
                             </h3>
                             <div style={{fontSize: "16px"}} dangerouslySetInnerHTML={{ __html: experience.description }} />
-                            <Stack style={{marginTop: "10px"}} direction="row" spacing={1}>
+                            <Stack style={{marginTop: "10px"}} direction="row" spacing={1} flexWrap="wrap">
                                 {experience.techs.map((tech, i) => (
                                     <Chip key={i} label={tech} variant="outlined" />
                                 ))}

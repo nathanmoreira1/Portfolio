@@ -20,7 +20,7 @@ body {
 
 .container {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   background: rgba( 255, 255, 255, 0.25 );
@@ -84,3 +84,60 @@ body {
   background-color: #fff;
   margin-right: 10px;
 }
+
+@media(max-width: 1150px) {
+  .side-avatar {
+    display: none;
+  }
+  .app {
+    width: 90%;
+  }
+  .side-bar {
+    width: 30%;
+  }
+  .selected-content-main {
+    margin-top: 10%;
+  }
+}
+
+@media(max-width: 650px) {
+  .app {
+    width: 95%;
+    flex-direction: column;
+    margin-top: 4%;
+  }  
+  .my-informations-main {
+    text-align: center;
+  }
+  .side-bar {
+    width: 100%;
+  }
+  .main-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .selected-indicator {
+    display: none;
+  }
+  .social-medias {
+    justify-content: center;
+  }
+  .selected-content-main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .technologies {
+    width: 100%;
+  }
+  .my-informations-main h1 {
+    font-size: 35px;
+  }
+  
+  .my-informations-main p {
+    font-size: 20px;
+  }
+}
+

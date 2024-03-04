@@ -50,7 +50,7 @@ export const Menu = ({actualRoute, setActualRoute}) => {
                     </Button>
                 </NavLink>
             </nav>
-            <section style={{display: "flex", gap: "10px", marginTop: "25px", marginLeft: "10px"}}>
+            <section className='social-medias' style={{display: "flex", gap: "10px", marginTop: "25px", marginLeft: "10px"}}>
                 {socialMediaLinks.map((item, index) => (
                     <React.Fragment key={index}>
                         {index > 0 && <Divider orientation="vertical" flexItem color="#fff" />}

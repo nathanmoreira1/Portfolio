@@ -20,6 +20,7 @@ export const Avatar = ({isFocus}) => {
 
     return (
         <img
+            className={isFocus ? "avatar" : "side-avatar"}
             src={me}
             alt={"Avatar with illustrative image from author"}
             style={{
