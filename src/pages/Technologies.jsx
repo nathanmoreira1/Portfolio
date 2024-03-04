@@ -13,7 +13,7 @@ function Technologies() {
                     <CardActionArea>
                         <CardContent>
                         <Typography gutterBottom variant="body1" component="div">
-                            {technology.name} - {technology.experience_count} anos
+                            {technology.name} - {technology.experience_count} years
                         </Typography>
                             
                         </CardContent>
