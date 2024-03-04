@@ -35,12 +35,14 @@ export const Menu = ({actualRoute, setActualRoute}) => {
                         Experience
                     </Button>
                 </NavLink>
-                <NavLink to="/projects" className={"menu-item"} onClick={() => setActualRoute("/projects")}>
-                    <Button fullWidth={true}>
-                        {actualRoute == "/projects" && <div className='selected-indicator'></div>}
-                        Projects
-                    </Button>
-                </NavLink>
+                {/* 
+                    <NavLink to="/projects" className={"menu-item"} onClick={() => setActualRoute("/projects")}>
+                        <Button fullWidth={true}>
+                            {actualRoute == "/projects" && <div className='selected-indicator'></div>}
+                            Projects
+                        </Button>
+                    </NavLink>
+                */}
                 <NavLink to="/technologies" className={"menu-item"} onClick={() => setActualRoute("/technologies")}>
                     <Button fullWidth={true}>
                         {actualRoute == "/technologies" && <div className='selected-indicator'></div>}
