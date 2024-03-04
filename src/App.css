@@ -15,7 +15,6 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  margin-top: 4%;
 }
 
 .container {
@@ -31,15 +30,19 @@ body {
 
 .side-bar {
   width: 45%;
+  display: flex;
+  align-items: center;
 }
 
 .my-informations-main {
   position: sticky;
-  top: 16%;
 }
 
 .selected-content-main {
   flex: 1;
+  margin-top: 7%;
+  display: flex;
+  justify-content: center;
 }
 
 .my-informations-main h1 {
@@ -85,6 +88,10 @@ body {
   margin-right: 10px;
 }
 
+.technologies {
+  width: 100%;
+}
+
 @media(max-width: 1150px) {
   .side-avatar {
     display: none;
@@ -101,10 +108,13 @@ body {
 }
 
 @media(max-width: 650px) {
+  .side-bar {
+    display: unset;
+    margin-top: 30px;;
+  }
   .app {
     width: 95%;
     flex-direction: column;
-    margin-top: 4%;
   }  
   .my-informations-main {
     text-align: center;
