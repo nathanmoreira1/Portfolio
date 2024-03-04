@@ -35,7 +35,7 @@ function App() {
               <Menu actualRoute={actualRoute} setActualRoute={setActualRoute} />
             </section>
           </div>
-          <section className='selected-content-main'>
+          <section className='selected-content-main' style={actualRoute == "/" ? { display: "flex", alignItems: "center" } : {}}>
             <Avatar isFocus={actualRoute == "/"} />
             <Routes>
               <Route path="/" element={null} />

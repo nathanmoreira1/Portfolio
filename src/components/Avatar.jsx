@@ -1,11 +1,9 @@
-import myAvatar from "../assets/me.jpeg"
-import me from "../assets/me.png"
-import hello from "../assets/hey.png"
+import me from "../assets/me.jpeg"
 
 export const Avatar = ({isFocus}) => {
     const focusedOptions = {
-        width: 400,
-        height: 400
+        width: 600,
+        height: 600,
     }
 
     const nonFocusedOptions = {

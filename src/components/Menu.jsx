@@ -9,10 +9,10 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export const Menu = ({actualRoute, setActualRoute}) => {
     const socialMediaLinks = [
-        { icon: <EmailIcon sx={{fontSize: 25}} />, link: 'mailto:nathanmoreirademacedo@gmail.com' },
-        { icon: <GitHubIcon sx={{fontSize: 25}} />, link: 'https://github.com/nathanmoreira1' },
-        { icon: <LinkedInIcon sx={{fontSize: 25}} />, link: 'https://www.linkedin.com/in/nathan-moreira-de-macedo/' },
-      ];
+        { icon: <EmailIcon sx={{fontSize: 28}} />, link: 'mailto:nathanmoreirademacedo@gmail.com' },
+        { icon: <GitHubIcon sx={{fontSize: 28}} />, link: 'https://github.com/nathanmoreira1' },
+        { icon: <LinkedInIcon sx={{fontSize: 28}} />, link: 'https://www.linkedin.com/in/nathan-moreira-de-macedo/' },
+    ];
 
     return (
         <>

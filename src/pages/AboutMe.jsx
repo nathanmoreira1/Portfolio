@@ -5,7 +5,7 @@ import { CardActionArea } from '@mui/material';
 function AboutMe() {
 
     return(
-        <div class="about-me">
+        <div className="about-me">
             <Card style={{backgroundColor: "#777"}}>
                 <CardActionArea>
                     <CardContent>

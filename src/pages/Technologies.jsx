@@ -9,18 +9,16 @@ function Technologies() {
     return(
         <div className="technologies">
             {technologies.map((technology) => (
-                <>
-                    <Card key={technology.id} style={{height: "50px", marginBottom: "5px", backgroundColor: "#777"}}>
-                        <CardActionArea>
-                            <CardContent>
-                            <Typography gutterBottom variant="body1" component="div">
-                                {technology.name} - {technology.experience_count} anos
-                            </Typography>
-                                
-                            </CardContent>
-                        </CardActionArea>
-                    </Card>
-                </>
+                <Card key={technology.id} style={{height: "50px", marginBottom: "5px", backgroundColor: "#777"}}>
+                    <CardActionArea>
+                        <CardContent>
+                        <Typography gutterBottom variant="body1" component="div">
+                            {technology.name} - {technology.experience_count} anos
+                        </Typography>
+                            
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
             ))}
         </div>
     )
