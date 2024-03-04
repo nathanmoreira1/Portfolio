@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react';
 import AboutMe from './pages/AboutMe';
 import Experiences from './pages/Experiences';
 import Technologies from './pages/Technologies';
+import Projects from './pages/Projects';
 
 function App() {
   const [actualRoute, setActualRoute] = useState("");
@@ -27,11 +28,13 @@ function App() {
     <Router>
       <div className='container'>
         <main className='app'>
-          <section className='my-informations-main'>
-            <h1>Hi, I'm Nathan.</h1>
-            <p>Software Developer</p>
-            <Menu setActualRoute={setActualRoute} />
-          </section>
+          <div className='side-bar'>
+            <section className='my-informations-main'>
+              <h1>Hi, I'm Nathan.</h1>
+              <p>Software Developer</p>
+              <Menu setActualRoute={setActualRoute} />
+            </section>
+          </div>
           <section className='selected-content-main'>
             <Avatar isFocus={actualRoute == "/"} />
             <Routes>
@@ -39,6 +42,7 @@ function App() {
               <Route path="/about-me" element={<AboutMe />} />
               <Route path="/experiences" element={<Experiences />} />
               <Route path="/technologies" element={<Technologies />} />
+              <Route path="/projects" element={<Projects />} />
             </Routes>
           </section>
         </main>

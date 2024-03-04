@@ -9,7 +9,7 @@ function Technologies() {
         <div className="technologies">
             {technologies.map((technology) => (
                 <>
-                    <Card key={technology.id} style={{height: "60px", marginBottom: "2px"}}>
+                    <Card key={technology.id} style={{height: "50px", marginBottom: "5px"}}>
                         <CardActionArea>
                             <CardContent>
                                 <p>

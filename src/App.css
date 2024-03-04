@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * {
-  font-family: 'Inter';
+  font-family: 'Tinos' !important;
 }
 
 body {
@@ -22,18 +22,22 @@ body {
   justify-content: center;
 }
 
+.side-bar {
+  width: 45%;
+}
+
 .my-informations-main {
-  width: 45%
+  position: sticky;
+  top: 16%;
 }
 
 .selected-content-main {
   flex: 1;
-  overflow: auto;
 }
 
 .my-informations-main h1 {
   font-size: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 18px;
   margin-top: 0;
 }
 
@@ -63,5 +67,5 @@ body {
 }
 
 .about-me p {
-  font-size: 16px;
+  font-size: 18px;
 }
